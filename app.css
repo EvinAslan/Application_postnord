@@ -42,16 +42,12 @@ h1, h2, p { margin-top: 0; }
 	color: var(--navy);
 	font-weight: 800;
 }
-.brand-mark {
+.brand-icon {
 	display: grid;
 	place-items: center;
 	width: 38px;
 	height: 38px;
-	color: white;
-	background: var(--navy);
-	border-radius: 50% 50% 50% 8px;
-	font-size: 19px;
-	transform: rotate(-12deg);
+	object-fit: contain;
 }
 .status {
 	display: flex;
