@@ -39,7 +39,7 @@
 				</div>
 				<input id="file-input" type="file" accept="image/jpeg,image/png,image/webp">
 				<input id="camera-input" type="file" accept="image/jpeg,image/png,image/webp" capture="environment">
-				<div class="scan-actions"><small id="file-status">No image selected</small><button class="button button-primary scan-button" id="scan-button" type="button" disabled>Scan address <span aria-hidden="true">→</span></button></div>
+				<div class="scan-actions"><small id="file-status">Preparing scanner…</small><button class="button button-primary scan-button" id="scan-button" type="button" disabled>Scan address <span aria-hidden="true">→</span></button></div>
 			</article>
 
 			<article class="panel result-panel">
@@ -57,7 +57,7 @@
 		</section>
 	</main>
 
-	<script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
-	<script src="app.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+	<script defer src="app.js"></script>
 </body>
 </html>

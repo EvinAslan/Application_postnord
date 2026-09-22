@@ -62,16 +62,17 @@ function fillAddressFields(address) {
 
 async function loadAddressDatabase() {
 	try {
-		const response = await fetch('register.json');
+		const response = await fetch('register.json', { cache: 'no-store' });
 		if (!response.ok) throw new Error('Database request failed');
 		const records = await response.json();
 		addressDatabase = records
 			.filter(record => record.bor_kvar)
 			.map(record => normalizeAddress(record.namn + '\n' + record.gata + '\n' + record.postnummer + ' ' + record.ort + '\nSweden'));
 		databaseReady = true;
+		fileStatus.textContent = 'Ready · choose or take a photo';
 	} catch (error) {
 		console.error('Could not load register.json', error);
-		fileStatus.textContent = 'Could not load the address database';
+		fileStatus.textContent = 'Could not load the address database. Check the Render files.';
 	}
 }
 
@@ -96,6 +97,10 @@ function renderResults(address) {
 
 async function scanAddress() {
 	if (!selectedFile || !databaseReady) return;
+	if (!window.Tesseract) {
+		fileStatus.textContent = 'OCR is still loading. Check your internet connection and try again.';
+		return;
+	}
 	scanButton.disabled = true;
 	scanButton.innerHTML = 'Reading address <span aria-hidden="true">…</span>';
 	fileStatus.textContent = 'Analysing letter image';
