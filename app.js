@@ -69,7 +69,7 @@ async function loadAddressDatabase() {
 			.filter(record => record.bor_kvar)
 			.map(record => normalizeAddress(record.namn + '\n' + record.gata + '\n' + record.postnummer + ' ' + record.ort + '\nSweden'));
 		databaseReady = true;
-		fileStatus.textContent = 'Ready · choose or take a photo';
+		fileStatus.textContent = '';
 	} catch (error) {
 		console.error('Could not load register.json', error);
 		fileStatus.textContent = 'Could not load the address database. Check the Render files.';

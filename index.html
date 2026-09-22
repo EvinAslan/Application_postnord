@@ -14,21 +14,13 @@
 <body>
 	<header class="topbar">
 		<div class="brand"><img class="brand-icon" src="adress%20check%20icon.webp" alt=""><span>AddressCheck</span></div>
-		<div class="status"><span class="status-dot" aria-hidden="true"></span> Validation service ready</div>
 	</header>
 
 	<main>
-		<section class="intro">
-			<p class="eyebrow">Mailroom assistant</p>
-			<h1>Make every address<br>ready to deliver.</h1>
-			<p>Scan the address on a letter and get a quick, practical check before it enters the mail stream.</p>
-		</section>
-
 		<section class="workspace" aria-label="Address scanning workspace">
 			<article class="panel scan-panel">
 				<div class="panel-head">
 					<div><h2>Scan a letter</h2><p class="subtext">Use a clear photo of the front of the envelope.</p></div>
-					<span class="badge">STEP 01 / 02</span>
 				</div>
 				<div class="dropzone" id="dropzone">
 					<div class="upload-prompt">
@@ -43,7 +35,7 @@
 				</div>
 				<input id="file-input" type="file" accept="image/jpeg,image/png,image/webp">
 				<input id="camera-input" type="file" accept="image/jpeg,image/png,image/webp" capture="environment">
-				<div class="scan-actions"><small id="file-status">Preparing scanner…</small><button class="button button-primary scan-button" id="scan-button" type="button" disabled>Scan address <span aria-hidden="true">→</span></button></div>
+				<div class="scan-actions"><small id="file-status" aria-live="polite"></small><button class="button button-primary scan-button" id="scan-button" type="button" disabled>Scan address <span aria-hidden="true">→</span></button></div>
 			</article>
 
 			<article class="panel result-panel">
