@@ -1,0 +1,402 @@
+[
+  {
+    "id": 0,
+    "namn": "Alva Fredriksson",
+    "gata": "Backgatan 8",
+    "postnummer": "29600",
+    "ort": "Mölndal",
+    "bor_kvar": true
+  },
+  {
+    "id": 1,
+    "namn": "Leonard Larsson",
+    "gata": "Trädgårdsstigen 02",
+    "postnummer": "65423",
+    "ort": "Örebro",
+    "bor_kvar": false
+  },
+  {
+    "id": 2,
+    "namn": "Axel Roos",
+    "gata": "Backvägen 1",
+    "postnummer": "61849",
+    "ort": "Västerås",
+    "bor_kvar": true
+  },
+  {
+    "id": 3,
+    "namn": "Maj Olsson",
+    "gata": "Åkergatan 47",
+    "postnummer": "52553",
+    "ort": "Varberg",
+    "bor_kvar": true
+  },
+  {
+    "id": 4,
+    "namn": "Karin Eriksson",
+    "gata": "Storgränd 8",
+    "postnummer": "65030",
+    "ort": "Karlstad",
+    "bor_kvar": true
+  },
+  {
+    "id": 5,
+    "namn": "Christine Söderlund",
+    "gata": "Ekvägen 72",
+    "postnummer": "52388",
+    "ort": "Karlskoga",
+    "bor_kvar": true
+  },
+  {
+    "id": 6,
+    "namn": "Helge Östling",
+    "gata": "Ringtorget 122",
+    "postnummer": "89166",
+    "ort": "Örnsköldsvik",
+    "bor_kvar": true
+  },
+  {
+    "id": 7,
+    "namn": "Margareta Bergman",
+    "gata": "Skolvägen 27",
+    "postnummer": "24828",
+    "ort": "Lidköping",
+    "bor_kvar": false
+  },
+  {
+    "id": 8,
+    "namn": "Louie Brodin",
+    "gata": "Villavägen 01",
+    "postnummer": "24303",
+    "ort": "Uddevalla",
+    "bor_kvar": true
+  },
+  {
+    "id": 9,
+    "namn": "Viktoria Karlsson",
+    "gata": "Kvarnvägen 2",
+    "postnummer": "98963",
+    "ort": "Växjö",
+    "bor_kvar": false
+  },
+  {
+    "id": 10,
+    "namn": "Åke Lundström",
+    "gata": "Skolgatan 150",
+    "postnummer": "19301",
+    "ort": "Västerås",
+    "bor_kvar": true
+  },
+  {
+    "id": 11,
+    "namn": "Rebecka Andersson",
+    "gata": "Kvarnvägen 829",
+    "postnummer": "23763",
+    "ort": "Piteå",
+    "bor_kvar": true
+  },
+  {
+    "id": 12,
+    "namn": "Hans Jansson",
+    "gata": "Järnvägsvägen 5",
+    "postnummer": "83338",
+    "ort": "Skövde",
+    "bor_kvar": false
+  },
+  {
+    "id": 13,
+    "namn": "Elise Eriksson",
+    "gata": "Gentorget 1",
+    "postnummer": "38013",
+    "ort": "Uddevalla",
+    "bor_kvar": false
+  },
+  {
+    "id": 14,
+    "namn": "Einar Jakobsson",
+    "gata": "Strandgatan 47",
+    "postnummer": "46872",
+    "ort": "Borås",
+    "bor_kvar": true
+  },
+  {
+    "id": 15,
+    "namn": "Laila Kvist",
+    "gata": "Järnvägsstigen 88",
+    "postnummer": "20812",
+    "ort": "Sandviken",
+    "bor_kvar": true
+  },
+  {
+    "id": 16,
+    "namn": "Helena Söderberg",
+    "gata": "Villagatan 99",
+    "postnummer": "54353",
+    "ort": "Jönköping",
+    "bor_kvar": true
+  },
+  {
+    "id": 17,
+    "namn": "Ingrid Svensson-Svensson",
+    "gata": "Villastigen 183",
+    "postnummer": "62513",
+    "ort": "Lund",
+    "bor_kvar": true
+  },
+  {
+    "id": 18,
+    "namn": "Robert Nilsson",
+    "gata": "Aspgränd 241",
+    "postnummer": "48244",
+    "ort": "Borås",
+    "bor_kvar": true
+  },
+  {
+    "id": 19,
+    "namn": "Josefin Eriksson Sundberg",
+    "gata": "Ekvägen 00",
+    "postnummer": "92427",
+    "ort": "Örnsköldsvik",
+    "bor_kvar": false
+  },
+  {
+    "id": 20,
+    "namn": "Annika Söderman",
+    "gata": "Fabriksvägen 8",
+    "postnummer": "66204",
+    "ort": "Trollhättan",
+    "bor_kvar": true
+  },
+  {
+    "id": 21,
+    "namn": "Margareta Marklund",
+    "gata": "Villagränd 322",
+    "postnummer": "40256",
+    "ort": "Lund",
+    "bor_kvar": true
+  },
+  {
+    "id": 22,
+    "namn": "Gunilla Andersson",
+    "gata": "Grantorget 54",
+    "postnummer": "63036",
+    "ort": "Västerås",
+    "bor_kvar": true
+  },
+  {
+    "id": 23,
+    "namn": "Evelyn Karlsson Mohamed",
+    "gata": "Skolvägen 940",
+    "postnummer": "79655",
+    "ort": "Borlänge",
+    "bor_kvar": false
+  },
+  {
+    "id": 24,
+    "namn": "Daniel Andersson Johansson",
+    "gata": "Skolgatan 5",
+    "postnummer": "71484",
+    "ort": "Falun",
+    "bor_kvar": true
+  },
+  {
+    "id": 25,
+    "namn": "Kerstin Edman-Malmqvist",
+    "gata": "Villastigen 68",
+    "postnummer": "64436",
+    "ort": "Kristianstad",
+    "bor_kvar": true
+  },
+  {
+    "id": 26,
+    "namn": "Mikael Karlsson",
+    "gata": "Kyrkstigen 9",
+    "postnummer": "41343",
+    "ort": "Göteborg",
+    "bor_kvar": false
+  },
+  {
+    "id": 27,
+    "namn": "Elisabet Jonsson",
+    "gata": "Skolgränd 3",
+    "postnummer": "17632",
+    "ort": "Skövde",
+    "bor_kvar": false
+  },
+  {
+    "id": 28,
+    "namn": "Caroline Vikström",
+    "gata": "Kyrkogatan 727",
+    "postnummer": "97986",
+    "ort": "Lund",
+    "bor_kvar": true
+  },
+  {
+    "id": 29,
+    "namn": "Johan Nygren",
+    "gata": "Ekgatan 71",
+    "postnummer": "93455",
+    "ort": "Jönköping",
+    "bor_kvar": true
+  },
+  {
+    "id": 30,
+    "namn": "Elin Nielsen",
+    "gata": "Skolvägen 87",
+    "postnummer": "10366",
+    "ort": "Skellefteå",
+    "bor_kvar": true
+  },
+  {
+    "id": 31,
+    "namn": "Therese Gustafsson",
+    "gata": "Kyrkogränd 8",
+    "postnummer": "87346",
+    "ort": "Borlänge",
+    "bor_kvar": true
+  },
+  {
+    "id": 32,
+    "namn": "Michael Palmgren",
+    "gata": "Aspgatan 8",
+    "postnummer": "26990",
+    "ort": "Jönköping",
+    "bor_kvar": true
+  },
+  {
+    "id": 33,
+    "namn": "Colin Fors",
+    "gata": "Trädgårdsvägen 64",
+    "postnummer": "94170",
+    "ort": "Trollhättan",
+    "bor_kvar": true
+  },
+  {
+    "id": 34,
+    "namn": "Lovisa Olsson",
+    "gata": "Idrottsgatan 923",
+    "postnummer": "87193",
+    "ort": "Östersund",
+    "bor_kvar": true
+  },
+  {
+    "id": 35,
+    "namn": "Linda Wallin",
+    "gata": "Kyrkgatan 0",
+    "postnummer": "29663",
+    "ort": "Linköping",
+    "bor_kvar": true
+  },
+  {
+    "id": 36,
+    "namn": "Pernilla Lindgren-Bergström",
+    "gata": "Kyrkovägen 5",
+    "postnummer": "88506",
+    "ort": "Skövde",
+    "bor_kvar": true
+  },
+  {
+    "id": 37,
+    "namn": "Markus Petersson",
+    "gata": "Nygränd 4",
+    "postnummer": "67694",
+    "ort": "Örebro",
+    "bor_kvar": true
+  },
+  {
+    "id": 38,
+    "namn": "Sara Eriksson Johansson",
+    "gata": "Björkvägen 27",
+    "postnummer": "55454",
+    "ort": "Motala",
+    "bor_kvar": true
+  },
+  {
+    "id": 39,
+    "namn": "Anna Nilsson",
+    "gata": "Stationsvägen 7",
+    "postnummer": "70143",
+    "ort": "Växjö",
+    "bor_kvar": true
+  },
+  {
+    "id": 40,
+    "namn": "Henrik Larsson Hedman",
+    "gata": "Stationsvägen 44",
+    "postnummer": "91351",
+    "ort": "Gävle",
+    "bor_kvar": true
+  },
+  {
+    "id": 41,
+    "namn": "Maria Fredriksson",
+    "gata": "Fabriksgatan 35",
+    "postnummer": "54082",
+    "ort": "Uppsala",
+    "bor_kvar": false
+  },
+  {
+    "id": 42,
+    "namn": "Fredrik Söderlund",
+    "gata": "Åkergatan 4",
+    "postnummer": "17752",
+    "ort": "Skellefteå",
+    "bor_kvar": true
+  },
+  {
+    "id": 43,
+    "namn": "Monica Jakobsson",
+    "gata": "Skogsgatan 4",
+    "postnummer": "43186",
+    "ort": "Kristianstad",
+    "bor_kvar": true
+  },
+  {
+    "id": 44,
+    "namn": "Gabriel Lindberg",
+    "gata": "Parkstigen 913",
+    "postnummer": "34123",
+    "ort": "Lund",
+    "bor_kvar": false
+  },
+  {
+    "id": 45,
+    "namn": "Helena Mårtensson",
+    "gata": "Järnvägsgatan 47",
+    "postnummer": "73493",
+    "ort": "Landskrona",
+    "bor_kvar": true
+  },
+  {
+    "id": 46,
+    "namn": "Lovis Sundberg",
+    "gata": "Järnvägsgatan 99",
+    "postnummer": "77174",
+    "ort": "Lidingö",
+    "bor_kvar": false
+  },
+  {
+    "id": 47,
+    "namn": "Juhani Aronsson",
+    "gata": "Backvägen 4",
+    "postnummer": "11399",
+    "ort": "Nyköping",
+    "bor_kvar": true
+  },
+  {
+    "id": 48,
+    "namn": "Marianne Dahl",
+    "gata": "Nystigen 71",
+    "postnummer": "25655",
+    "ort": "Luleå",
+    "bor_kvar": true
+  },
+  {
+    "id": 49,
+    "namn": "Mohammad Gunnarsson",
+    "gata": "Trädgårdsgatan 45",
+    "postnummer": "86808",
+    "ort": "Uppsala",
+    "bor_kvar": true
+  }
+]

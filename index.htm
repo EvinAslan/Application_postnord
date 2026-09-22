@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AddressCheck | Letter scanner</title>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+	<header class="topbar">
+		<div class="brand"><span class="brand-mark" aria-hidden="true">✓</span><span>AddressCheck</span></div>
+		<div class="status"><span class="status-dot" aria-hidden="true"></span> Validation service ready</div>
+	</header>
+
+	<main>
+		<section class="intro">
+			<p class="eyebrow">Mailroom assistant</p>
+			<h1>Make every address<br>ready to deliver.</h1>
+			<p>Scan the address on a letter and get a quick, practical check before it enters the mail stream.</p>
+		</section>
+
+		<section class="workspace" aria-label="Address scanning workspace">
+			<article class="panel scan-panel">
+				<div class="panel-head">
+					<div><h2>Scan a letter</h2><p class="subtext">Use a clear photo of the front of the envelope.</p></div>
+					<span class="badge">STEP 01 / 02</span>
+				</div>
+				<div class="dropzone" id="dropzone">
+					<div class="upload-prompt">
+						<div class="scan-icon" aria-hidden="true">⌁</div>
+						<strong>Drop a letter image here</strong>
+						<p>or choose a file from your device</p>
+						<div class="upload-actions"><label class="button button-primary" for="camera-input">Take photo</label><label class="button button-quiet" for="file-input">Choose image</label></div>
+						<div class="file-note">JPG, PNG or WEBP · up to 10 MB</div>
+					</div>
+					<img id="preview" alt="Preview of the uploaded letter">
+					<div class="preview-tools"><button class="mini-button" id="replace-button" type="button">Replace</button><button class="mini-button" id="clear-button" type="button">Clear</button></div>
+				</div>
+				<input id="file-input" type="file" accept="image/jpeg,image/png,image/webp">
+				<input id="camera-input" type="file" accept="image/jpeg,image/png,image/webp" capture="environment">
+				<div class="scan-actions"><small id="file-status">No image selected</small><button class="button button-primary scan-button" id="scan-button" type="button" disabled>Scan address <span aria-hidden="true">→</span></button></div>
+			</article>
+
+			<article class="panel result-panel">
+				<div class="result-top"><div><h2>Address result</h2><p class="subtext">Validation appears here after scanning.</p></div><div class="score" id="score" aria-label="Validation score">—</div></div>
+				<div class="empty-state" id="empty-state"><div class="symbol" aria-hidden="true">▤</div><h3>Nothing scanned yet</h3><p>Your extracted address and delivery checks will appear in this panel.</p></div>
+				<div class="results" id="results" aria-live="polite">
+					<p class="result-summary" id="result-summary"></p>
+					<div class="database-status" id="database-status" role="status"></div>
+					  <div class="address-box"><label>Extracted address</label><div class="address-fields" id="address-fields"><div class="address-field"><label for="address-name">Name</label><input id="address-name" type="text" disabled></div><div class="address-field"><label for="address-street">Street and house number</label><input id="address-street" type="text" disabled></div><div class="address-field"><label for="address-postcode">Postcode</label><input id="address-postcode" type="text" disabled></div><div class="address-field"><label for="address-city">City</label><input id="address-city" type="text" disabled></div><div class="address-field"><label for="address-country">Country</label><input id="address-country" type="text" disabled></div></div><small class="address-help">Review each field. Correct any OCR mistakes before checking the address.</small></div>
+					<div class="checks" id="checks"></div>
+						<div class="result-footer"><button class="button button-quiet" id="edit-button" type="button">Correct address</button><button class="button button-primary" id="copy-button" type="button">Copy address</button></div>
+					<p class="footer-note"><span class="lock" aria-hidden="true">⊙</span> Image processing stays in this browser.</p>
+				</div>
+			</article>
+		</section>
+	</main>
+
+	<script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
